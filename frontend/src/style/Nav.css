@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.nav-content{
+    height: 60px;
+    padding-top: 40px;
+    padding-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+}
+
+.left-nav-side {
+    float: left;
+    width: 400px;
+    height: 100px;
+    color: #db0000;
+    font-size: 2em;
+}
+
+.left-nav-side > a {
+    text-decoration: none;
+    color: #db0000;
+}
+
+.right-nav-side {
+    float: left;
+    width: 800px;
+    height: 100px;
+}
+
+.option-nav {
+    float: left;
+    width: 100px;
+    height: 50px;
+    margin: 1%;
+    text-align: center;
+    color: #fff;
+}
+
+.option-nav > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.option-nav > a:hover {
+    color: 	#db0000;
+}
+
+.nav-button {
+    width: 100px;
+    height: 25px;
+    background-color: #db0000;
+    border: solid 0.1px #000;
+    border-radius: 10px;
+    font-size: 0.8em;
+    cursor: pointer;
+    margin-top: -5px;
+    color: #fff;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.nav-button:hover {
+    background-color: #fa5252;
+}
+
+.nav-button-log-out {
+    width: 80px;
+    height: 25px;
+    background-color: black;
+    background-color: #db0000;
+    border: solid 0.1px #000;
+    border-radius: 10px;
+    font-size: 0.8em;
+    cursor: pointer;
+    margin-top: -5px;
+    color: #fff;
+    padding: 8px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .left-nav-side {
+        font-size: 1.5em;
+    }
+    
+    /* .option-nav {
+        margin: 4px;
+    } */
+}

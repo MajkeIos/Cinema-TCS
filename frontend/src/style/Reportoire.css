@@ -1,0 +1,26 @@
+.repertoire-container {
+    width: 100%;
+}
+
+.days-bar {
+    width: 95%;
+    height: 100px;
+    padding: 20px;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.available-days-bar {
+    display: flex;
+}
+
+.available-days-bar > p {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.available-movies {
+    width: 100%;
+    height: 1000px;
+}
+

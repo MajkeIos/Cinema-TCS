@@ -1,0 +1,28 @@
+.summary-container {
+    color: #fff;
+    height: 700px;
+    margin: 20px;
+}
+
+.values-box {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.8em;
+    border: solid 1px #fff;
+    padding: 20px;
+}
+
+.pay-button {
+    width: 100px;
+    height: 50px;
+    background-color: #db0000;
+    border: solid 0.1px #000;
+    border-radius: 10px;
+    font-size: 1.4em;
+    cursor: pointer;
+    margin-top: -5px;
+    color: #fff;
+    padding: 8px;
+    text-decoration: none;
+}

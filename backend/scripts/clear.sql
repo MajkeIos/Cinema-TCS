@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS screening_reservation;
+DROP TABLE IF EXISTS reservation;
+DROP TABLE IF EXISTS screening;
+DROP TABLE IF EXISTS screen;
+DROP TABLE IF EXISTS theater;
+DROP TABLE IF EXISTS movie;
+DROP TABLE IF EXISTS "user";
